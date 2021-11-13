@@ -10,7 +10,7 @@ steps:
     - uses: actions/checkout@v2    
     - name: Check policy in HTML    
       id: tt    
-      uses: t0kapo/ttcheck@v1.1    
+      uses: t0kapo/ttcheck@v1.2    
       with:
         html-file-path: template/index.html     
         js-policy-file-path: policy.js    

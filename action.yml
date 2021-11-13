@@ -1,0 +1,17 @@
+name: 'ttcheck'
+description: 'This Action checks for "Trusted Types" in the HTML, adds new policies, etc.'
+inputs: 
+        html-file-path: 
+                description: 'input HTML file path'
+                required: true
+        js-policy-file-path: 
+                description: 'input file path of "Trusted Type policy"'
+                required: true
+outputs: 
+        time: 
+        description: 'getting execution time of this program '
+runs:
+        using: 'node17'
+        main: 'add_tag.js'
+        
+

@@ -1,0 +1,18 @@
+{
+  "name": "ttcheck",
+  "version": "1.0.0",
+  "description": "This Action checks for 'Trusted Types' in the HTML, adds new policies, etc.",
+  "main": "add_tag.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "t0kapo",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "jquery": "^3.6.0",
+    "js-beautify": "^1.14.0",
+    "jsdom": "^18.1.0"
+  }
+}

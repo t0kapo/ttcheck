@@ -26,7 +26,7 @@ ex:  `index.html`,  `template/index.html`
     
       
 1.If "Trusted Types" is not enabled   
-    Insert the meta tag that enables Trusted Types(ex.  <meta http-equiv="Content-Security-Policy" content="require-trusted-types-for 'script';  trusted-types *** ">).
+    Insert the meta tag that enables Trusted Types(ex.  <meta http-equiv="Content-Security-Policy" content="require-trusted-types-for 'script';  trusted-types *** ">).   
 2.If "Trusted Types" is enabled   
     Nothing to do.   
    

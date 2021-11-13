@@ -61,8 +61,8 @@ try {
 	});
 
 	const endtime = performance.now(); //計測終了
-	const run_time = endtime - starttime;
-	core.setOutput('time', run_time);
+	const time = endtime - starttime;
+	core.setOutput("time", time);
 } catch (error) {
 	core.setFailed(error.message);
 }

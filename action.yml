@@ -11,7 +11,7 @@ outputs:
         time: 
         description: 'getting execution time of this program '
 runs:
-        using: 'node17'
+        using: 'node12'
         main: 'add_tag.js'
         
 

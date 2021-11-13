@@ -9,7 +9,7 @@ inputs:
                 required: true
 outputs: 
         time: 
-        description: 'getting execution time of this program '
+                description: 'getting execution time of this program '
 runs:
         using: 'node12'
         main: 'add_tag.js'

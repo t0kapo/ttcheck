@@ -26,7 +26,11 @@ ex:  `index.html`,  `template/index.html`
     
       
 1.If "Trusted Types" is not enabled   
-    Insert the meta tag that enables Trusted Types(ex.  <meta http-equiv="Content-Security-Policy" content="require-trusted-types-for 'script';  trusted-types *** ">).   
+    Insert the meta tag that enables Trusted Types   
+    example:   
+    ```    
+    <meta http-equiv="Content-Security-Policy" content="require-trusted-types-for 'script';  trusted-types *** ">   
+    ```    
 2.If "Trusted Types" is enabled   
     Nothing to do.   
    
@@ -37,7 +41,11 @@ example: `policy.js`, `static/js/policy.js`
      
      
 1.If the policy is not in place    
-    Insert the policy name to the meta tag (ex(policy name is "mypolivy"). <meta http-equiv="Content-Security-Policy" content="require-trusted-types for 'script';  trusted-types mypolicy">).  
+    Insert the policy name to the meta tag   
+    example(policy name is "mypolivy"):    
+    ```   
+    <meta http-equiv="Content-Security-Policy" content="require-trusted-types for 'script';  trusted-types mypolicy">   
+    ```      
 2.If the policy is already in place     
     Nothing to do.
 

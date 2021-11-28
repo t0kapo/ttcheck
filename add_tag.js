@@ -56,8 +56,12 @@ try {
 	var code_beautifier = beautify_html(change_dom);
 	//overwrite html file
 	fs.writeFile(file_html, code_beautifier, (err) => {
-		if (err) throw err;
-		console.log('');
+		if (err) {
+			throw err;
+			console.log('Failed to overwrite the file "' + file_html + '".');
+		}else{
+			console.log('File overwrite successful!');
+		}
 	});
 
 	const endtime = performance.now(); //計測終了
